@@ -1,16 +1,40 @@
 body { 
+        
         height: 100%; 
-        background-color: whitesmoke
+     
+}
+
+.uk-card-body {
+        height: 100%;
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+       padding-bottom: 0;
+      }
+
+.navBottomDiv {
+        margin-top: 30px;
+}
+.lock {
+        position: fixed;
+        width: 100%;
+        z-index: 4  ;
+        padding-bottom: 30px;
+      
+      }
+
+.btn {
+        text-decoration: none;
 }
 
 
-header { background-image: url("../images/flower.jpg");
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         height: 180px;
-         width: 100%;
-}
 
+.softcover {
+        background-repeat:no-repeat;
+        background-size: cover;
+        height: auto;
+        }
+    
 .nav { 
         background-color: grey;    
         
@@ -49,8 +73,9 @@ header { background-image: url("../images/flower.jpg");
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: grey;
-        color: white;
+        background-color: white;
+        color: #3391c5;
+        font-weight: bold;
         text-align: center;
      }
 
