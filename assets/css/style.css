@@ -1,112 +1,128 @@
-body { 
-        
-        height: 100%; 
-     
-}
-
-.badges {
-        padding-top: 40px;
-        margin-left: 20%;
-         }
-
-.nameStyle {
-        text-decoration: none;
-        font-size: 15px;
-        list-style-type: none;
-        color: black;
-        margin-top: 30px;
-
-         }
-.contact {
-        padding-bottom: 20px;
-}
-        
-.uk-card-body {
-        height: 100%;
-        width: 100%;
-        margin-left: 40px;
-        margin-right: 40px;
-        padding-bottom: 0;
-      }
-
-.navBottomDiv {
-        margin-top: 30px;
-}
-.lock {
-        position: fixed;
-        width: 100%;
-        z-index: 4  ;
-        padding-bottom: 30px;
-      
-      }
-
-.btn {
-        text-decoration: none;
-}
-
-
-
-.softcover {
-        background-repeat:no-repeat;
-        background-size: cover;
-        height: auto;
+@media all and (min-width: 480px) {
+        body { 
+                
+                height: 100%; 
+             
         }
-    
-.nav { 
-        background-color: grey;    
         
-}
-
-.nav-link { 
-        color: white;  
-}
-
-.belowNav { margin-top: 40px;
+        .badges {
+                padding-top: 40px;
+                margin-left: 25%;
+                align-content: center;
+        
+                 }
+        
+        .nameStyle {
+                text-decoration: none;
+                font-size: 15px;
+                list-style-type: none;
+                color: black;
+                margin-top: 30px;
+        
+                 }
+        .contact {
+                padding-bottom: 20px;
+        }
+                
+        .uk-card-body {
+                height: 100%;
+                width: 100%;
+                margin-left: 40px;
+                margin-right: 40px;
+                padding-bottom: 0;
+              }
+        
+        .navBottomDiv {
+                margin-top: 30px;
+        }
+        .lock {
+                position: fixed;
+                width: 100%;
+                z-index: 4  ;
+                padding-bottom: 30px;
+              
+              }
+        
+        .name {
+                font-size: 30px;
+                margin-left: 50px;
+                
+        }
+        
+        .credstyle {
+              
+                text-align: center;
+                
+                
+        }
+        .btn {
+                text-decoration: none;
+        }
+        
+        
+        
+        .softcover {
+                background-repeat:no-repeat;
+                background-size: cover;
+                height: auto;
+                }
             
-}
-
-.profilePic {
-        float: right;
-}
-
-.intro {
-        margin-top: 30px;
-        align-content: left;
-        font-family: 'Nunito', sans-serif;
-        font-size: 18px;
-}
-
-.container { 
-        width: 80%;
+        .nav { 
+                background-color: grey;    
+                
+        }
         
-        box-shadow: 10px 10px 5px grey;
-        margin-top: 20px;
-        margin-bottom: 70px;
-        border-style: outset;
-}
-
-.footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: white;
-        color: #3391c5;
-        font-weight: bold;
-        text-align: center;
-     }
-
-.photo { 
+        .nav-link { 
+                color: white;  
+        }
         
-}
-
-
-.contact {
-        font-family: 'Nunito', sans-serif;
-        font-size: 45px;
-}
-
-/* 
-font-family: 'Nunito', sans-serif;
-font-family: 'Pacifico', cursive;
-font-family: 'Roboto Mono', monospace; */
+        .belowNav { margin-top: 40px;
+                    
+        }
+        
+        .profilePic {
+                float: right;
+        }
+        
+        .intro {
+                margin-top: 30px;
+                align-content: left;
+                font-family: 'Nunito', sans-serif;
+                font-size: 18px;
+        }
+        
+        .container { 
+                width: 80%;
+                
+                box-shadow: 10px 10px 5px grey;
+                margin-top: 20px;
+                margin-bottom: 70px;
+                border-style: outset;
+        }
+        
+        .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: white;
+                color: #3391c5;
+                font-weight: bold;
+                text-align: center;
+             }
+        
+      
+        
+        
+        .contact {
+                font-family: 'Nunito', sans-serif;
+                font-size: 45px;
+        }
+        
+        
+        @media only screen and (max-width: 600px) {
+                .name {
+                  font-size: 15px;
+                }
+              }
+        }
