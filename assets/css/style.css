@@ -5,6 +5,10 @@ body {
      
 }
 
+#button {
+        margin-top: 30px;
+}
+
 .badges {
         padding-top: 40px;
         margin-left: 25%;
@@ -26,7 +30,7 @@ body {
         
 .uk-card-body {
         height: 100%;
-        width: 100%;
+        width: 60%;
         margin-left: 40px;
         margin-right: 40px;
         padding-bottom: 0;
