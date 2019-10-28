@@ -125,7 +125,20 @@ body {
         font-size: 45px;
 }
 
+.mainBlock {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        background-color: grey;
+}
 
+.cardFormat {
+        margin-bottom: 10px;        
+}
+
+.imgSize {
+        /* width: 600px;
+        height: 300px; */
+}
 @media only screen and (max-width: 600px) {
         .name {
           font-size: 15px;
