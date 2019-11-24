@@ -19,6 +19,9 @@
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit.min.css" />
 
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
+
   <!-- UIkit JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
@@ -29,57 +32,59 @@
 <body>
 
   <!-- navbar -->
-  <div class="uk-position-relative bg lock">
-    <img class="softcover" src="" style="background-size: cover" alt="">
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-left">
+        <p class="name">Dianna Sutton Brown</p>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="uk-active"><a class="" href="#modal-full" uk-toggle>About Me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- home banner image -->
+  <div class="uk-position-relative">
+    <img src="./assets/images/computerMobileBanner.png" alt="">
     <div class="uk-position-top">
       <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-left">
-          <ul class="uk-navbar-nav">
-            <p class="name">Dianna Sutton Brown</p>
-            <li>
 
-            </li>
-
-          </ul>
-
-        </div>
-        <div class="uk-navbar-right">
-          <ul class="uk-navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li class="uk-active"><a class="" href="#modal-full" uk-toggle>About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            </li>
-          </ul>
         </div>
       </nav>
+    </div>
+  </div>
 
-      <!-- About me modal -->
-      <div id="modal-full" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-          <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-          <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('assets/images/dianna.png');"
-              uk-height-viewport>
-            </div>
-            <div class="uk-padding-large">
-              <h1>Aout Me</h1>
-              <p>Full-Stack Web Developer who is adaptable and motivated to problem solve. Recently completed UCI’s
-                Coding
-                Bootcamp with entry-level experience working both frontend and backend programming including MERN stack.
-                Experience collaborating with a team of programmers designing web applications. Ability to project
-                manage,
-                work with others and understand the big picture while narrowing down large scope ideas into smaller
-                single
-                tasks required to complete projects. Demonstrates excellent verbal communication and attention to
-                detail.
-                Enjoys designing aesthetically-pleasing websites and applications.
-              </p>
-            </div>
-          </div>
+  <!-- About me modal -->
+  <div id="modal-full" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+      <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+        <div class="uk-background-cover" style="background-image: url('assets/images/dianna.png');" uk-height-viewport>
+        </div>
+        <div class="uk-padding-large">
+          <h1>Aout Me</h1>
+          <p>Full-Stack Web Developer who is adaptable and motivated to problem solve. Recently completed UCI’s
+            Coding
+            Bootcamp with entry-level experience working both frontend and backend programming including MERN stack.
+            Experience collaborating with a team of programmers designing web applications. Ability to project
+            manage,
+            work with others and understand the big picture while narrowing down large scope ideas into smaller
+            single
+            tasks required to complete projects. Demonstrates excellent verbal communication and attention to
+            detail.
+            Enjoys designing aesthetically-pleasing websites and applications.
+          </p>
         </div>
       </div>
     </div>
+  </div>
+  </div>
   </div>
   <!-- Projects   -->
   <div class="uk-container-expand	mainBlock">
@@ -133,7 +138,8 @@
                 <h2 class="uk-modal-title">Fam.ily</h2>
               </div>
               <div class="uk-modal-body">
-                <p><strong>IN PROGRESS:</strong>Our vision was to create a social media application for family members with user authentication and
+                <p><strong>IN PROGRESS:</strong>Our vision was to create a social media application for family members
+                  with user authentication and
                   three layer approval process for family members wanting to to join a family tree. Our aim was to
                   create
                   a safe and secure platform for family members to chat with each other and to create and view events
@@ -302,7 +308,8 @@
                 <h2 class="uk-modal-title">Specialty Travel Agency Website</h2>
               </div>
               <div class="uk-modal-body">
-                <p><strong>IN PROGRESS:</strong> Website built for a Travel Agency that specializes in Surfing Vacations</p>
+                <p><strong>IN PROGRESS:</strong> Website built for a Travel Agency that specializes in Surfing Vacations
+                </p>
                 <ul>
                   <li>User can shop for surfing vacations</li>
                   <li>Users can view travel packages</li>
@@ -321,12 +328,12 @@
       </div>
 
       <div>
-      <div class="footer">
-        <p><a href="mailto:diannasb@dsbwebdev.com">
-            diannasb@dsbwebdev.com
-          </a></p>
+        <div class="footer">
+          <p><a href="mailto:diannasb@dsbwebdev.com">
+              diannasb@dsbwebdev.com
+            </a></p>
+        </div>
       </div>
-    </div>
 
 
 </body>

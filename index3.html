@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css//style.css">
+
+  <!-- scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./assets/javascript/app.js"></script>
+
+
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <div class="uk-position-relative bg lock">
+    <img class="softcover" src="" style="background-size: cover" alt="">
+    <div class="uk-position-top">
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+            <li class="uk-active">
+              <p class="name">Dianna Sutton Brown</p>
+            </li>
+            <li>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="uk-active"><a class="" href="#modal-full" uk-toggle>About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- About me modal -->
+      <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+          <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+          <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('assets/images/dianna.png');"
+              uk-height-viewport>
+            </div>
+            <div class="uk-padding-large">
+              <h1>Aout Me</h1>
+              <p>Full-Stack Web Developer who is adaptable and motivated to problem solve. Recently completed UCI’s
+                Coding
+                Bootcamp with entry-level experience working both frontend and backend programming including MERN stack.
+                Experience collaborating with a team of programmers designing web applications. Ability to project
+                manage,
+                work with others and understand the big picture while narrowing down large scope ideas into smaller
+                single
+                tasks required to complete the project. Demonstrates excellent verbal communication and attention to
+                detail.
+                Enjoys designing aesthetically-pleasing websites and applications.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uk-cover-container uk-height-viewport navBottomDiv">
+    <img src="./assets/images/webdev01.jpeg" alt="" uk-cover>
+  </div>
+
+  <div class="footer">
+    <p><a href="mailto:diannasb@dsbwebdev.com">
+        diannasb@dsbwebdev.com
+      </a></p>
+  </div>
+
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+  UIkit.navbar(element, options);
+</script>

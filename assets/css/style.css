@@ -49,9 +49,28 @@ body {
 
 .name {
         font-size: 30px;
+        font-weight: bold;
+        color: black;
         margin-left: 50px;
+        font-family: 'Playfair Display', serif;   
+        padding: 0;   
+        line-height: 1.5 
+}
+
+.subtitle {
+        font-size: 13.7px;
+        margin-left: 50px;
+        font-family: 'Roboto', sans-serif;
+        padding: 0;
         
 }
+
+.smallBanner {
+        padding-top: 30px;
+}
+
+
+
 
 .credstyle {
       
