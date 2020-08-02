@@ -1,0 +1,189 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+p .roberto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6em;
+}
+
+.roberto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6em;
+}
+main {
+  flex: 1 0 auto;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  /* // portfolio */
+  .cardFormat {
+    margin-bottom:  10px;        
+}
+
+/* GoDaddy Cert */
+.ssl {
+  margin-left: 900px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+.logo {
+  font-family: 'Special Elite', cursive;
+}
+
+.logo1 {
+  font-family: 'Special Elite', cursive;
+}
+
+.brick {
+  background-image: url("../images/brick.png")
+}
+
+.whitebackground {
+  background-color: white;
+  margin-top: 50px;
+
+}
+
+.subtitle {
+  font-family: 'Special Elite', cursive;
+  font-size: 3em;
+}
+
+.subtitleThree {
+  font-family: 'Suez One', serif; 
+  font-size: 2em;
+}
+
+.nav-font {
+  font-family: 'Special Elite', cursive;
+  font-size: 1em;
+}
+
+/* Social Media Tags */
+/* square social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* round social media icons */
+/* .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+} */
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.commit {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+/* .diannaImg {
+  float: left;
+  /* margin-left: 50px; */
+  /* margin-top: 20px;
+} */ 
+
+/* Google fonts */
+/* font-family: 'Fredericka the Great', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Suez One', serif; */
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  } 
+
+  .logoFont {
+    Font-size: .50em;
+    
+  }
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+

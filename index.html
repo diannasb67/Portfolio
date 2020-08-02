@@ -2,103 +2,227 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home</title>
 
-  <!-- stylesheets -->
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css//style.css">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <!-- scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./assets/javascript/app.js"></script>
 
-
-  <!-- UIkit CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit.min.css" />
-
   <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Josefin+Slab:wght@700&family=Special+Elite&family=Suez+One&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <!-- UIkit JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
-  <title>Portfolio</title>
+  <!--  
+  font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/750d5f0260.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-  
 <body>
-<!-- navbar -->
+   <!-- Navbar -->
+   <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo logo">
+        <h4 class="logoFont">Dianna Sutton Brown</h4>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" class="nav-font">Home</a></li>
+        <li><a href="about.html" class="nav-font">About</a></li>
+        <li><a href="Services.html" class="nav-font">Services</a></li>
+        <!-- <li><a href="portfolio.html" class="nav-font">Portfolio</a></li> -->
+        <!-- <li><a href="Contact.html" class="nav-font">Contact</a></li> -->
+      </ul>
 
-<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    <nav class="uk-navbar-container" uk-navbar>
-      <div class="uk-navbar-left">
-        <p class="name">Dianna Sutton Brown</p>
-        
-      </div>
-      <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li class="uk-active"><a class="" href="#modal-full" uk-toggle>About Me</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
-<!-- home banner image -->
-<div class="uk-position-relative">
-    <img src="assets/images/coverComputerMobile.png" alt="">
-    <div class="uk-position-top">
-        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-            <div class="uk-navbar-left">
-                
-            </div>
-        </nav>
+      <ul id="nav-mobile" class="sidenav nav-font">
+        <li><a href="index.html" class="nav-font">Home</a></li>
+        <li><a href="about.html" class="nav-font">About</a></li>
+        <li><a href="Services.html" class="nav-font">Services</a></li>
+        <!-- <li><a href="portfolio.html" class="nav-font">Portfolio</a></li>
+        <li><a href="Contact.html" class="nav-font">Contact</a></li> -->
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-</div>
-<!-- About me modal -->
-<div id="modal-full" class="uk-modal-full" uk-modal>
-    <div class="uk-modal-dialog">
-      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-      <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-        <div class="uk-background-cover" style="background-image: url('assets/images/dianna.png');"
-          uk-height-viewport>
+  </nav>
+  <!-- Navbar end -->
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center text-lighten-2 logo1"><strong>Freelance Developer</strong></h1>
+        <div class="row center">
+
+          <h6 class="header col s12 light subtitleThree">Website, Software, Applications</h6>
         </div>
-        <div class="uk-padding-large">
-          <h1>Aout Me</h1>
-          <p>Full-Stack Web Developer who is adaptable and motivated to problem solve. Recently completed UCI’s
-            Coding
-            Bootcamp with entry-level experience working both frontend and backend programming including MERN stack.
-            Experience collaborating with a team of programmers designing web applications. Ability to project
-            manage,
-            work with others and understand the big picture while narrowing down large scope ideas into smaller
-            single
-            tasks required to complete the project. Demonstrates excellent verbal communication and attention to
-            detail.
-            Enjoys designing aesthetically-pleasing websites and applications.
-          </p>
+        <div class="row center">
+          <!-- <a href="Contact.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get
+            Started</a> -->
         </div>
+        <br><br>
+
       </div>
     </div>
+    <div class="parallax"><img src="images/webdev01.jpeg" alt="Unsplashed background img 1"></div>
   </div>
 
 
-    <div class="footer">
-        <p><a href="mailto:diannasb@dsbwebdev.com">
-            diannasb@dsbwebdev.com
-          </a></p>
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+
+            <!-- <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2> -->
+            <h5 class="center">Website Development</h5>
+
+            <p class="light center-align">I will work with you in designing, coding and personalizing your website to
+              meet your objectives. I aim in designing unique websites that highlight your company's branding.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <!-- <h2 class="center brown-text"><i class="material-icons">group</i></h2> -->
+            <h5 class="center">Software Solutions</h5>
+
+            <p class="light center-align">Need to find solutions for your business? I will work with you and your team
+              to develop a solution that will improve your day-to-day operation using software applications including
+              database development and support.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+
+            <!-- <h2 class="center brown-text"><i class="material-icons">settings</i></h2> -->
+            <h5 class="center">Mobile Applications</h5>
+
+            <p class="light center-align">Do you want to create a mobile application? I will work with you and your team
+              in designing an application that is mobile friendly, so information and tools are at your fingertips!</p>
+          </div>
+        </div>
       </div>
-    
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"><strong>Mobile Ready Applications</strong></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/dsbwebdevCover.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>My Commitment</h4>
+          <p class="left-align light commit">"I want you to be satisfied with my work and I am committed to your project and working
+            closely with you and your team to ensure the final product meets and exceeds your expectations!"</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"><strong>Software Solutions for Businesses</strong></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/webdev01.jpeg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4></h4>
+          <p class="left-align light"></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer class="page-footer blue-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 center">
+          <h5 class="black-text"></h5>
+          <p class="brown-text roberto"></p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"></h5>
+          <a href="https://www.facebook.com/Dsbwebdev-112462437147118" class="white-text fa fa-facebook"></a>
+          <a href="#" class="white-text fa fa-twitter"></a>
+          <a href="#!" class="white-text fa fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/dianna-s-6b6131172/" class="white-text fa fa-linkedin"></a>
+          <a href="#!" class="white-text"></a>
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Contact</h5>
+          <ul>
+            <li><a class="white-text" href="949-315-8957"> 949-315-8957</a></li>
+            <li><a class="white-text" href="mailto:www.diannasb@dsbwebdev">diannasb@dsbwebdev.com</a>
+            <li><a class="white-text">www.dsbwebdev.com</a>
+
+            <li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright">
+      <div class="container center">
+        dsbwebdev 2020<a class="brown-text text-lighten-3"></a>
+        <span id="siteseal"><script async type="text/javascript" class="ssl" src="https://seal.godaddy.com/getSeal?sealID=WMUODwPrxX6YHZgl3YSuHPZiPHsARcW5SKbL9xYWfEWIXQLcNs1WGiHupZ4n"></script></span>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+  </script>
 
 </body>
 
 </html>
-
-<script type="text/javascript">
-
-  UIkit.navbar(element, options);
-</script>

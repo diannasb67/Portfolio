@@ -1,0 +1,311 @@
+body { 
+        height: 100%;     
+}
+
+html {
+        background: url('assets/images/blue2background.png');
+}
+
+.test {
+        background-color: red;
+        height: 100%;
+        background-size: cover;
+}
+img {
+        max-width: 100%;
+
+}
+#button {
+        margin-top: 30px;
+}
+
+.badges {
+        padding-top: 40px;
+        margin-left: 25%;
+        align-content: center;
+
+         }
+
+.nameStyle {
+        text-decoration: none;
+        font-size: 15px;
+        list-style-type: none;
+        color: black;
+        margin-top: 30px;
+
+         }
+.contact {
+        padding-bottom: 20px;
+}
+        
+.uk-card-body {
+        height: 100%;
+        width: 60%;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-bottom: 0;
+      }
+
+.navBottomDiv {
+        margin-top: 30px;
+}
+
+.navWidth {
+        width: 500px;
+        height: 30px;
+}
+
+.lock {
+        position: fixed;
+        width: 100%;
+        z-index: 4  ;
+        padding-bottom: 30px;
+      
+      }
+
+.name {
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        margin-left: 50px;
+        font-family: 'Playfair Display', serif;   
+        padding: 0;   
+        line-height: 1.5 
+}
+
+.subtitle {
+        font-size: 13.7px;
+        margin-left: 50px;
+        font-family: 'Roboto', sans-serif;
+        padding: 0;
+        
+}
+
+.smallBanner {
+        padding-top: 30px;
+}
+
+
+
+
+.credstyle {
+      
+        text-align: center;
+        
+        
+}
+.btn {
+        text-decoration: none;
+}
+
+
+
+.softcover {
+        background-repeat:no-repeat;
+        background-size: cover;
+        height: auto;
+        }
+    
+.nav { 
+        background-color: grey;    
+        
+}
+
+.nav-link { 
+        color: white;  
+}
+
+.belowNav { margin-top: 40px;
+            
+}
+
+.profilePic {
+        float: right;
+}
+
+.intro {
+        margin-top: 30px;
+        align-content: left;
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+}
+
+.container { 
+        width: 80%;
+        
+        box-shadow: 10px 10px 5px grey;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        border-style: outset;
+}
+
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: #3391c5;
+        font-weight: bold;
+        text-align: center;
+     }
+
+.photo { 
+        
+}
+
+
+.contact {
+        font-family: 'Nunito', sans-serif;
+        font-size: 45px;
+}
+
+.mainBlock {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        background-color: white;
+}
+
+.cardFormat {
+        margin-bottom:  10px;        
+}
+
+.boxAlign {
+        margin-left: 100px;
+}
+
+.imgSize {
+        /* width: 600px;
+        height: 300px; */
+}
+
+.social {
+        padding: 100px;
+        }
+
+.socialIcons {
+        margin-right: 200px;
+}
+
+
+
+.icons {
+        margin-left: 100px;
+        padding-top: 30px;
+        
+}
+
+.container {
+        position: relative;
+        text-align: center;
+        color: white;
+             }
+       
+.centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+/* side navbar */
+.dis-none{
+        display: none;
+}
+
+.h-40{
+        height: 40px;
+        min-height: 40px;
+      }
+
+      /*
+ * Keyframes
+ */
+
+@keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+      
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translate3d(0, 100%, 0);
+        }
+      
+        100% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      
+      @keyframes fadeInRight {
+        0% {
+          opacity: 0;
+          transform: translate3d(100%, 0, 0);
+        }
+      
+        100% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      
+
+      /*
+ * CSS Page Transitions
+ * Don't forget to add vendor prefixes!
+ */
+.m-scene 
+        /** Basic styles for an animated element */
+        .scene_element {
+          animation-duration: 0.25s;
+          transition-timing-function: ease-in;
+          animation-fill-mode: both;
+      
+        }
+      
+        /** An element that fades in */
+        .scene_element--fadein {
+          animation-name: fadeIn;
+        }
+      
+        /** An element that fades in and slides up */
+        .scene_element--fadeinup {
+          animation-name: fadeInUp;
+        }
+      
+        /** An element that fades in and slides from the right */
+        .scene_element--fadeinright {
+          animation-name: fadeInRight;
+        }
+      
+
+      @media screen and (min-width : 320px) and (max-width : 480px){
+        body{
+        background-color: white;
+        }
+      }
+      
+      @media screen and (min-width : 768px) and (max-width : 1024px){
+        body{
+        background-color: blue;
+        }
+      }
+      
+      @media screen and (min-width : 1024px){
+        body{
+        background-color: green;
+        }
+      }
+      
+      @media screen and (min-width : 1284px){
+        body{
+        background-color: yellow;
+        }
+      }
+

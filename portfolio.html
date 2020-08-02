@@ -2,338 +2,354 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
 
-  <!-- stylesheets -->
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css//style.css">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <!-- scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./assets/javascript/app.js"></script>
-  <script>UIkit.modal(element, options);</script>
-
-
-  <!-- UIkit CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit.min.css" />
 
   <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Josefin+Slab:wght@700&family=Special+Elite&family=Suez+One&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <!-- UIkit JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
-  <title>Portfolio</title>
+  <!--  
+  font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/750d5f0260.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
 </head>
 
-
 <body>
+ <!-- Navbar -->
+ <nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="index.html" class="brand-logo logo">
+      <h4 class="logoFont">Dianna Sutton Brown</h4>
+    </a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="index.html" class="nav-font">Home</a></li>
+      <li><a href="about.html" class="nav-font">About</a></li>
+      <li><a href="Services.html" class="nav-font">Services</a></li>
+      <li><a href="portfolio.html" class="nav-font">Portfolio</a></li>
+      <li><a href="Contact.html" class="nav-font">Contact</a></li>
+    </ul>
 
-  <!-- navbar -->
-  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    <nav class="uk-navbar-container" uk-navbar>
-      <div class="uk-navbar-left">
-        <p class="name">Dianna Sutton Brown</p>
-      </div>
-      <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li class="uk-active"><a class="" href="#modal-full" uk-toggle>About Me</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          </li>
+    <ul id="nav-mobile" class="sidenav nav-font">
+      <li><a href="index.html" class="nav-font">Home</a></li>
+      <li><a href="about.html" class="nav-font">About</a></li>
+      <li><a href="Services.html" class="nav-font">Services</a></li>
+      <li><a href="portfolio.html" class="nav-font">Portfolio</a></li>
+      <li><a href="Contact.html" class="nav-font">Contact</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+<!-- Navbar end -->
+ 
+ 
+    <!-- Carousel -->
+    <!-- <div class="carousel no-padding">
+      <a class="carousel-item" href="#one!"><img src="./images/dyw.PNG"></a>
+      <a class="carousel-item" href="#two!"><img src="./images/family.PNG" ></a>
+      <a class="carousel-item" href="#three!"><img src="./images/trailstails.PNG"></a>
+      <a class="carousel-item" href="#one!"><img src="./images/stlogo2.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="./images/WLT.PNG"></a>
+      <a class="carousel-item" href="#three!"><img src="./images/chefwarrensanchezWebPhoto.PNG"></a>
+      <a class="carousel-item" href="#four!"><img src="./images/channelpartnerwebsite.PNG"></a>
+      <a class="carousel-item" href="#five!"><img src="./images/shanghaireg.PNG"></a>
+    </div> -->
+
+  <!-- Carousel End -->
+  <!-- collapsible begin -->
+<div class="container">
+
+  <h2>Portfolio</h2>
+  <ul class="collapsible">
+
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>Sutton Travel Website</div>
+      <div class="collapsible-body"><span> <p><strong>Travel Agency Website built for leiusre and group travel</strong></p>
+        <ul>
+          <li>User can:</li>
+          <li>Shop for vacation specials.</li>
+          <li>View Exclusive Travel Packages.</li>
+          <li>Point of Contact.</li>
+          <br>
+          <li>Tools/languages used include HTML, CSS, Bootstrap, Javascript, UI Kit.</li>
         </ul>
-      </div>
-    </nav>
+      <br>
+      <em>Role: HTML, CSS Styling, Javascript</em>
+    <br>
+    <a href="http://suttontravel.com/" target="_blank">
+      http://suttontravel.com/</a>
+    </span>
+  <br>
+  <!-- <a href=""><img src="./images/stlogo2.jpg" title="registration" width="350" height="350" /></a></div> -->
+    </li>
+  <!-- Portfolio Website - Chef Warren Sanchez -->
+  <li>
+    <div class="collapsible-header"><i class="material-icons"></i>Chef Warren Sanchez</div>
+    <div class="collapsible-body"><span><p><strong>Portfolio</strong></p>
+    <p>Portfolio Wordpress Website created to showcase Chef Sanchez tasty creations.</p>
+    
+    <a href="http://chefwarrensanchez.com/" target="_blank">http://chefwarrensanchez.com/</a><br></span>
+  <br>
+  <!-- <img src="./images/chefwarrensanchezWebPhoto.PNG" class="imgLeft"> -->
   </div>
-  <!-- home banner image -->
-  <div class="uk-position-relative">
-    <img src="./assets/images/computerMobileBanner.png" alt="">
-    <div class="uk-position-top">
-      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-        <div class="uk-navbar-left">
-
-        </div>
-      </nav>
-    </div>
-  </div>
-
-  <!-- About me modal -->
-  <div id="modal-full" class="uk-modal-full" uk-modal>
-    <div class="uk-modal-dialog">
-      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-      <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-        <div class="uk-background-cover" style="background-image: url('assets/images/dianna.png');" uk-height-viewport>
-        </div>
-        <div class="uk-padding-large">
-          <h1>Aout Me</h1>
-          <p>Full-Stack Web Developer who is adaptable and motivated to problem solve. Recently completed UCI’s
-            Coding
-            Bootcamp with entry-level experience working both frontend and backend programming including MERN stack.
-            Experience collaborating with a team of programmers designing web applications. Ability to project
-            manage,
-            work with others and understand the big picture while narrowing down large scope ideas into smaller
-            single
-            tasks required to complete projects. Demonstrates excellent verbal communication and attention to
-            detail.
-            Enjoys designing aesthetically-pleasing websites and applications.
+  </li>
+         <!-- Specialty Travel Agency Website - Waves Less Traveled -->
+         <!-- <li>
+          <div class="collapsible-header"><i class="material-icons"></i>Waves Less Traveled</div>
+          <div class="collapsible-body"><span><p><strong>Specialty Travel Agency Website built for Leiusre and Group Travel</strong></p> 
+            <p><strong>IN PROGRESS:</strong> Website built for a Travel Agency that specializes in Surfing Vacations
           </p>
+          <ul>
+            <li>User can shop for surfing vacations.</li>
+            <li>Users can view travel packages.</li>
+            <li>Point of Contact.</li>
+            <br>
+            <li>Tools/languages used include HTML, CSS, UI Kit, Javascript</li>
+            <br><em>Role: HTML & CSS</em>
+          </ul>
+       
+        <a href="http://waveslesstraveled.com/" target="_blank">
+          http://waveslesstraveled.com/</a>
+       <br></span>
+      <br> -->
+      <!-- <img src="./images/WLT.PNG" title="travel agency" width="350" height="350" /> -->
+    <!-- </div>
+        </li> -->
+  
+    <!-- Discover Your World Website -->
+    <li>
+      <div class="collapsible-header"><i class="material-icons"></i>Discover Your World</div>
+      <div class="collapsible-body"><span><strong>API App to Discover Things to Do Around the World</strong><p>Our vision was to create a landing page to inspire your travel dreams and ignite the wanderlust in
+        all
+        of us. Our concept was to inspire others to go somewhere they have never been before.</p>
+        <ul>
+          <li>User can:</li>
+          <li>Enter any city in the world and search for things to do as well as country facts.</li>
+          <li>List the top 50 places in the world to travel.</li>
+          <li>The app was created to inspire people to travel, who need ideas or are on their trip and looking
+            for
+            specific places.</li>
+            <br>
+          <li>Tools/languages used include HTML, CSS, Bootstrap, API’s, Javascript, JQuery.</li>
+          <br>
+          <a href="https://danielhomann4.github.io/Project-1/index.html" target="_blank">
+            https://danielhomann4.github.io/Project-1/index.html</a>
+          <br><em>Role: CSS Styling</em>
+        </ul>
+        <br>
+        
+      </span>
+       <!-- <img src="./images/dyw.PNG" title="Discover Your World" width="350"
+          height="350" class="imgSize" />         -->
+    </li>
+
+    <!-- Fam.ily Website -->
+    <!-- <li>
+      <div class="collapsible-header"><i class="material-icons"></i>Fam.ily</div>
+      <div class="collapsible-body"><span> <strong>Social Media APP with a Private Platform to Connect with Immediate Family Members</strong>
+        <p><strong>IN PROGRESS:</strong> Our vision was to create a social media application for family members
+        with user authentication and
+        three layer approval process for family members wanting to to join a family tree. Our aim was to
+        create
+        a safe and secure platform for family members to chat with each other and to create and view events
+        using a shared calendar. The application also allows members to share family contact information via
+        virtual address book and share wish list between family members for gift ideas for birthdays and
+        celebrations.
+        <br>
+        <ul>
+          <li>User can:</li>
+          <li>Create or join a family tree.
+          </li>
+          <li>Chat with other family members in the chat room.
+          </li>
+          <li>Look up their family members contact information and wish list if they want to send a
+            gift
+            or birthday card.
+          </li>
+          <li>Create, view and edit events such as birthdays, anniversaries, weddings, etc.
+          </li>
+          <br>
+          <li>Tools/languages used include HTML, CSS, Javascript, REACT</li>
+        </ul>
+        <br>
+        <a href="https://fam-ily.herokuapp.com" target="_blank">
+          https://fam-ily.herokuapp.com</a>
+          <br><strong><em>Role:</strong> Address book using Sequelize, build models, Frontend framework using
+            Material UI, and
+            CSS</em>
+      </p></span> -->
+      <!-- <a href=""><img src="./images/family.PNG" title="FAM.ily" width="350" height="350"></a> -->
+  <!-- Trail Tails Website -->
+  <li>
+    <div class="collapsible-header"><i class="material-icons"></i>Trails Tails</div>
+    <div class="collapsible-body"><span>
+      <strong>API App to Connect Dog Playtime with Similar Breeds</strong>
+      <p>Our vision was to create a page where people can meet up with their pups of similar breeds to play in
+        the park, visit a beach or go for a hike. Our goal was to connect people with similar breeds to make
+        new
+        friends and plan pup playtime events.
+      </p>
+      <ul>
+        <li>User can:
+         <li>Create an event and view events in their area.</li> 
+        </li>
+        <li>Create a discussion page by leaving a comment.
+        </li>
+        <li>Check the weather in their local area within 3 hours.
+        </li>
+        <br>
+        <li>Tools/languages used include HTML, CSS, Materialize, API’s, Sequelize.</li>
+      </ul>
+      <br>
+      <a href="https://immense-savannah-15503.herokuapp.com/" target="_blank">
+        https://immense-savannah-15503.herokuapp.com/</a>
+      <br><em>Role: Local Weather API and CSS Styling</em>
+      <br>
+    </span>
+    <br>
+    <!-- <a href=""><img src="./images/trailstails.PNG" title="TrailsTails" width="350" height="350" /></a> -->
+  </div>
+ </li>
+ 
+    </div>
+    </li>
+
+  
+    <!-- Presidents Club Website -->
+    <!-- <li>
+      <div class="collapsible-header"><i class="material-icons"></i>Event Registration Website</div>
+      <div class="collapsible-body"><span><p><strong>Registration Website built for a Presidents Club Program</strong></p><ul>
+        <li>User can learn about the destination, access the agenda and register for the program.</li>
+        <br>
+          <li>Tools/languages used include HTML, CSS, Javascript, materialize.js, iframe.</li>
+      </ul>
+    <br> -->
+    <!-- Website Private - Please contact to request link -->
+    <!-- <a href="http://channelpartner.tpxevents.net/index.html" target="_blank">http://channelpartner.tpxevents.net/index.html</a> -->
+    <!-- <br><em>Role: Developed Website</em>
+    <br>
+    </span>
+    <br>
+    </div> -->
+
+    <!-- Presidents Club Website -->
+    <!-- <li>
+      <div class="collapsible-header"><i class="material-icons"></i>Presidents Club Registration Website</div>
+      <div class="collapsible-body"><span><p><strong>Registration Website built for a Presidents Club Program</strong></p>
+        <ul>
+          <li>User can learn about the destination, access the agenda and register for the program.</li>
+          <br>
+          <li>Tools/languages used include HTML, CSS, Bootstrap, Javascript, iframe</li>
+        </ul>
+        <br>
+        Website Private - Please contact to request link
+        <br><em>Role: Developed Website</em>
+        <br>
+      
+      </span>
+    <br>
+         </a>
+  </div>
+    </li> -->
+   
+   
+
+
+   
+    <!-- <li>
+      <div class="collapsible-header"><i class="material-icons"></i>Chez Gabriella</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li> -->
+  </ul>
+  
+</div>
+
+  <!-- collapsible END -->
+  
+     
+ 
+
+  <footer class="page-footer blue-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 center">
+          <h5 class="black-text"></h5>
+          <p class="brown-text roberto"></p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"></h5>
+          <a href="https://www.facebook.com/Dsbwebdev-112462437147118" class="white-text fa fa-facebook"></a>
+          <a href="#" class="white-text fa fa-twitter"></a>
+          <a href="#!" class="white-text fa fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/dianna-s-6b6131172/" class="white-text fa fa-linkedin"></a>
+          <a href="#!" class="white-text"></a>
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Contact</h5>
+          <ul>
+            <li><a class="white-text" href="949-315-8957"> 949-315-8957</a></li>
+            <li><a class="white-text" href="mailto:www.diannasb@dsbwebdev">diannasb@dsbwebdev.com</a>
+            <li><a class="white-text">www.dsbwebdev.com</a>
+
+            <li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
-  <!-- Projects   -->
-  <div class="uk-container-expand	mainBlock">
-    <div class="uk-child-width-1-3@s uk-grid-match uk-grid-collapse" uk-grid>
-      <div>
-        <!-- DISCOVER YOUR WORLD PROJECT -->
-        <div class="uk-card uk-card-body cardFormat">
-          <a href=""><img src="./assets/images/discoveryourworld.PNG" title="Discover Your World" width="350"
-              height="350" class="imgSize" /></a>
-          <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" href="#modal-sections1"
-            uk-toggle>Learn More</button>
-          <div id="modal-sections1" uk-modal>
-            <div class="uk-modal-dialog">
-              <button class="uk-modal-close-default" type="button" uk-close></button>
-              <div class="uk-modal-header">
-                <h2 class="uk-modal-title">Discover Your World</h2>
-              </div>
-              <div class="uk-modal-body">
-                <p>Our vision was to create a landing page to inspire your travel dreams and ignite the wanderlust in
-                  all
-                  of us. Our concept was to inspire others to go somewhere they have never been before.</p>
-                <ul>
-                  <li>User can enter any city in the world and search for things to do as well as country facts.</li>
-                  <li>List the top 50 places in the world to travel.</li>
-                  <li>The app was created to inspire people to travel, who need ideas or are on their trip and looking
-                    for
-                    specific places.</li>
-                  <li>Tools/languages used include HTML, CSS, Bootstrap, API’s, Javascript, JQuery.</li>
-                </ul>
-              </div>
-              <div class="uk-modal-footer uk-text-right">
-                <h4>Discover Your World</h4><a href="https://danielhomann4.github.io/Project-1/index.html">
-                  https://danielhomann4.github.io/Project-1/index.html</a>
-                <br><em>Role: CSS Styling</em>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- FAMILY PROJECT -->
-      <div>
-        <div class="uk-card uk-card-body cardFormat">
-          <a href=""><img src="assets//images/family.PNG" title="FAM.ily" width="350" height="350"></a>
-          <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" href="#modal-sections2"
-            uk-toggle>Learn More</button>
-          <div id="modal-sections2" uk-modal>
-            <div class="uk-modal-dialog">
-              <button class="uk-modal-close-default" type="button" uk-close></button>
-              <div class="uk-modal-header">
-                <h2 class="uk-modal-title">Fam.ily</h2>
-              </div>
-              <div class="uk-modal-body">
-                <p><strong>IN PROGRESS:</strong>Our vision was to create a social media application for family members
-                  with user authentication and
-                  three layer approval process for family members wanting to to join a family tree. Our aim was to
-                  create
-                  a safe and secure platform for family members to chat with each other and to create and view events
-                  using a shared calendar. The application also allows members to share family contact information via
-                  virtual address book and share wish list between family members for gift ideas for birthdays and
-                  celebrations.
-                </p>
-                <ul>
-                  <li>User can create or join a family tree.
-                  </li>
-                  <li>Chat with other family members in the chat room.
-                  </li>
-                  <li>Users can look up their family members contact information and wish list if they want to send a
-                    gift
-                    or birthday card.
-                  </li>
-                  <li>Users can create, view and edit events such as birthdays, anniversaries, weddings, etc.
-                  </li>
-                </ul>
-              </div>
-              <div class="uk-modal-footer uk-text-right">
-                <!-- <h4>FAM.ily </h4><a href="https://fam-ily.herokuapp.com">
-                  https://fam-ily.herokuapp.com</a> -->
-                <br><strong><em>Role:</strong> Address book using Sequelize, build models, Frontend framework using
-                Material UI, and
-                CSS</em>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- TRAILS TAILS PROJECT -->
-      <div>
-        <div class="uk-card uk-card-body cardFormat">
-          <a href=""><img src="./assets/images/trailstails.PNG" title="TrailsTails" width="350" height="350" /></a>
-          <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" href="#modal-sections3"
-            uk-toggle>Learn More</button>
-          <div id="modal-sections3" uk-modal>
-            <div class="uk-modal-dialog">
-              <button class="uk-modal-close-default" type="button" uk-close></button>
-              <div class="uk-modal-header">
-                <h2 class="uk-modal-title">Trails Tails</h2>
-              </div>
-              <div class="uk-modal-body">
-                <p>Our vision was to create a page where people can meet up with their pups of similar breeds to play in
-                  the park, visit a beach or go for a hike. Our goal was to connect people with similar breeds to make
-                  new
-                  friends and plan pup playtime events.
-                </p>
-                <ul>
-                  <li>User can create an event and view events in their area.
-                  </li>
-                  <li>Create a discussion page by leaving a comment.
-                  </li>
-                  <li>Check the weather in their local area within 3 hours.
-                  </li>
-                  <li>Tools/languages used include HTML, CSS, Materialize, API’s, Sequelize.</li>
-                </ul>
-              </div>
-              <div class="uk-modal-footer uk-text-right">
-                <h4>Trails Tails</h4><a href="https://immense-savannah-15503.herokuapp.com/">
-                  https://immense-savannah-15503.herokuapp.com/</a>
-                <br><em>Role: Local Weather API and CSS Styling</em>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- EVENT REGISTRATION WEBSITE -->
-      <div>
-        <div class="uk-card uk-card-body cardFormat">
-          <a href=""><img src="./assets/images/shanghaireg.PNG" title="registration" width="350" height="350" /></a>
-          <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" href="#modal-sections4"
-            uk-toggle>Learn More</button>
-          <div id="modal-sections4" uk-modal>
-            <div class="uk-modal-dialog">
-              <button class="uk-modal-close-default" type="button" uk-close></button>
-              <div class="uk-modal-header">
-                <h2 class="uk-modal-title">Event Registration Website</h2>
-              </div>
-              <div class="uk-modal-body">
-                <p>Registration Website built for a Presidents Club Program</p>
-                <ul>
-                  <li>User can learn about the destination, access the agenda and register for the program.</li>
-                </ul>
-              </div>
-              <div class="uk-modal-footer uk-text-right">
-                <h4>President's Club Registration Website</h4>
-                <br><em>Role: HTML & CSS</em>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- EVENT REGISTRATION WEBSITE -->
-      <div>
-        <div class="uk-card uk-card-body cardFormat">
-          <a href=""><img src="./assets/images/channelpartnerwebsite.PNG" title="registration" width="350"
-              height="350" /></a>
-          <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" href="#modal-sections5"
-            uk-toggle>Learn More</button>
-          <div id="modal-sections5" uk-modal>
-            <div class="uk-modal-dialog">
-              <button class="uk-modal-close-default" type="button" uk-close></button>
-              <div class="uk-modal-header">
-                <h2 class="uk-modal-title">Event Registration Website</h2>
-              </div>
-              <div class="uk-modal-body">
-                <p>Registration Website built for a Presidents Club Program</p>
-                <ul>
-                  <li>User can learn about the destination, access the agenda and register for the program.</li>
-                  <li>Tools/languages used include HTML, CSS, Bootstrap, Javascript</li>
-                </ul>
-              </div>
-              <div class="uk-modal-footer uk-text-right">
-                <h4>President's Club Registration Website</h4>
-                <br><em>Role: HTML & CSS</em>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- SUTTON TRAVEL WEBSITE -->
-      <div>
-        <div class="uk-card uk-card-body cardFormat">
-          <a href=""><img src="./assets/images/stlogo2.jpg" title="registration" width="350" height="350" /></a>
-          <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" href="#modal-sections6"
-            uk-toggle>Learn More</button>
-          <div id="modal-sections6" uk-modal>
-            <div class="uk-modal-dialog">
-              <button class="uk-modal-close-default" type="button" uk-close></button>
-              <div class="uk-modal-header">
-                <h2 class="uk-modal-title">Travel Agency Website</h2>
-              </div>
-              <div class="uk-modal-body">
-                <p>Travel Agency Website built for leiusre and group travel</p>
-                <ul>
-                  <li>User can shop for vacation specials</li>
-                  <li>Users can view Exclusive Travel Packages</li>
-                  <li>Point of Contact</li>
-                  <li>Tools/languages used include HTML, CSS, Bootstrap, Javascript</li>
-                </ul>
-              </div>
-              <div class="uk-modal-footer uk-text-right">
-                <h4>Sutton Travel</h4><a href="http://suttontravel.com/">
-                  http://suttontravel.com/</a>
-                <br><em>Role: HTML, CSS Styling, Javascript</em>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- WAVES LESS TRAVELED WEBSITE  -->
-      <div>
-        <div class="uk-card uk-card-body cardFormat">
-          <a href=""><img src="./assets/images/WLT.PNG" title="travel agency" width="350" height="350" /></a>
-          <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" href="#modal-sections7"
-            uk-toggle>Learn More</button>
-          <div id="modal-sections7" uk-modal>
-            <div class="uk-modal-dialog">
-              <button class="uk-modal-close-default" type="button" uk-close></button>
-              <div class="uk-modal-header">
-                <h2 class="uk-modal-title">Specialty Travel Agency Website</h2>
-              </div>
-              <div class="uk-modal-body">
-                <p><strong>IN PROGRESS:</strong> Website built for a Travel Agency that specializes in Surfing Vacations
-                </p>
-                <ul>
-                  <li>User can shop for surfing vacations</li>
-                  <li>Users can view travel packages</li>
-                  <li>Point of Contact</li>
-                  <li>Tools/languages used include HTML, CSS, UI Kit, Javascript</li>
-                </ul>
-              </div>
-              <div class="uk-modal-footer uk-text-right">
-                <h4>Waves Less Traveled</h4><a href="http://waveslesstraveled.com/">
-                  http://waveslesstraveled.com/</a>
-                <br><em>Role: HTML & CSS</em>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="footer">
-          <p><a href="mailto:diannasb@dsbwebdev.com">
-              diannasb@dsbwebdev.com
-            </a></p>
-        </div>
-      </div>
 
 
+    <div class="footer-copyright">
+      <div class="container center">
+        dsbwebdev 2020<a class="brown-text text-lighten-3"></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+  <script>
+   $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+</script>
+
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      fulllWidth: true,
+      noWrap: false,
+      duration: 100
+      
+
+    });
+  });
+  </script>
 </body>
 
 </html>
